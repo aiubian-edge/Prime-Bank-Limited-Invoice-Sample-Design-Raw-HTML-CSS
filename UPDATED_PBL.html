@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" /> <!--  I have used UTF-8 to use some character emoji. It's also my editor's by default system , when i use the short cut doc+tab at the begining My Editor name is brackets ----A.S.M. Radwan-->
+    <title>PRIME BANK LIMITED REPORTS</title>
+</head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+ $('#printInvoice').click(function(){
+            Popup($('.invoice')[0].outerHTML);
+            function Popup(data) 
+            {
+                window.print();
+                return true;
+            }
+        });
+</script>
+
+
+<style>
+#ff{
+        font-family:Calibri;
+    }
+#no {
+    
+    color: #fff;
+    font-size: 1.0em;
+    background: #3989c6
+}
+#tc{
+    height: 25px;
+    color: rgb(0, 0, 0);
+    background: #9aa7b1
+}
+#tcb{
+    height: 25px;
+    color: rgb(0, 0, 0);
+    background: #9aa7b1
+}
+#notices {
+    padding-left: 6px;
+    border-left: 6px solid #3989c6
+}
+#custom {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#custom td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#custom tr:nth-child(even){background-color: #f2f2f2;}
+
+#custom tr:hover {background-color: #ddd;}
+
+#custom th {
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    background-color: #c2cdd6;
+}
+body {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+</style>
+<body>
+    <div class="toolbar hidden-print" >
+        <div class="text-right" >
+            <button id="printInvoice" class="btn btn-info" ><i class="fa fa-print"></i> Print</button>
+            <button class="btn btn-info"><i class="fa fa-file-pdf-o"></i> Export as PDF</button>
+        </div>
+        <hr>
+    </div>
+
+
+    <div width="100%" style="padding: 10px;">
+        
+        <tr>
+            <td>
+
+<div width="100%">
+  <div>
+                      
+                        <div align="center" style=" font-family:Calibri; color:#3989c6 ;font-size: 25px ">
+                            PRIME BANK LIMITED<br>
+                        </div>
+                    </div>
+<div ><div align="center"  style=" font-family:Calibri; color:#212324 ;font-size: 20px ">
+TRADE SERVICES DIVISION<br>HEAD OFFICE<br><div border="1px" style=" border-bottom: 1px solid #3989c6"></div>
+<br></div>
+</div>
+
+</div>
+  
+                <div width="100%" style="padding: 5px;">
+                  
+
+                    <div >
+                        <div align="left"  width="66%" id="ff" style="font-size: large; padding-left: 5px;" >
+                            CUSTOMER DETAILS:<br>
+                            SHAMSER KNIT FASHIONS LTD.<br>
+                            NA<br>
+                            SREEPUR, STAND, GONAKBARI<br>
+                            SAVAR, DHAKA, BANGLADESH<br>
+                        </div>
+                        <div align="right"  id="ff" style="font-size: large; font-weight: bold; padding-right: 5px;" >
+                            Date: 05 DEC 2021
+                            <br> <br> <br> <br> <br>
+                        </div>
+                    </div>
+</div>
+
+  <div width="100%" id="custom">
+   <!---            <tr>
+                        <td>
+                            <hr style="width: 100%; border-bottom:2px dashed black;
+    =">
+                        </td>
+                        <td>
+                            <hr style="width: 100%; border-bottom:2px dashed black;
+    =">
+                        </td>
+                        <td>
+                            <hr style="width: 100%; border-bottom:2px dashed black;
+    =">
+                        </td>
+                    </tr> -->     
+                    <div >
+                        <div id="tc" align="center" width="400px" id="custom"  style="height:45px;">
+                            <div align="center">EXPORT PROCEED REALIZATION ADVICE</div>
+                        </div>
+                    </div>
+                  <!--  <tr>
+                        <td>
+                            <hr style="width: 100%; border-bottom:2px dashed black;
+    =">
+                        </td>
+                        <td>
+                            <hr style="width: 100%; border-bottom:2px dashed black;
+    =">
+                        </td>
+                        <td>
+                            <hr style="width: 100%; border-bottom:2px dashed black;
+    =">
+                        </td>
+                    </tr>
+-->
+
+                </div>
+                <div  id="custom" >
+                    <div align="left">
+                        <div >
+                            Branch
+                        </div>
+                        <div width="50%">
+                            &nbsp; GULSHAN BRANCH
+
+                        </div>
+
+
+                    </div>
+                    <div align="left">
+                        <div>
+                            Our Ref. No
+                        </div>
+                        <div>
+                            &nbsp; TF2123101088021
+
+                        </div>
+                    </div>
+                    <div align="left">
+                        <div>LC Number
+                        </div>
+                        <div>
+                            &nbsp; 2108101A601424
+
+                        </div>
+
+                    </div>
+                    <div align="left">
+                        <div>Our Bill No
+                        </div>
+                        <div>
+                             &nbsp;1555FDBC44102021
+
+                        </div>
+
+                    </div>
+                    <div align="left">
+                        <div>Invoice Number
+                        </div>
+                        <div>
+                            
+
+                        </div>
+
+                    </div>
+                    <div align="left">
+                        <div>Bill Amount
+                        </div>
+                        <div>
+                            &nbsp; USD 71611.50
+
+                        </div>
+
+                    </div>
+                    <div align="left">
+                        <div>Realized Amount
+                        </div>
+                        <div>
+                             &nbsp;USD 71376.50
+
+                        </div>
+
+                    </div>
+                    <div align="left">
+                        <div>Corrs. Bank Chgs
+                        </div>
+                        <div>
+                             &nbsp;USD 235.00
+
+                        </div>
+
+                    </div>
+                    <div align="left">
+                        <div>Exchange Rate
+                        </div>
+                        <div>
+                            &nbsp;84.1254
+
+                        </div>
+
+                    </div>
+                    <div align="left">
+                        <div>Applicant
+                        </div>
+                        <div>
+                         &nbsp;POINT OF TREND TEXTIL LTD
+
+                        </div>
+                    </div>
+                </div>
+
+                <div align="center" id="ff" style="font-size: 20px; padding-top: 8px;">PROCEED DISTRIBUTION</div>
+              <!--  <hr style="width: 100%; border-bottom:2px dashed black;
+    ="> -->
+                <table  id="custom">
+                    <tr >
+                        <th style="height:40px;">&nbsp; #</th>
+                        <th id="tc" width="30%" >A/C NO
+                        </th>
+                        <th width="40%">AC/TYPE
+                        </th>
+                        <th width="30%">CCY
+                        </th>
+                        <th width="40%">AMOUNT
+                        </th>
+
+                    </tr>
+                <!-- <hr style="width: 100%; border-bottom:2px dashed black;
+    ="> -->
+                    <tr>
+                        <td id="no">01</td>
+                        <td width="30%" align="left">2124316019285
+                        </td>
+                        <td  width="40%" align="left">Special Notice Deposit
+                        </td>
+                        <td width="30%"  align="left">USD
+                        </td>
+                        <td id="no" width="40%" align="right"> 19,316.22
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td id="no">02</td>
+                        <td width="30%"  align="left">2124587020900
+                        </td>
+                        <td  width="40%" align="left">FC Held Account
+                        </td>
+                        <td width="30%"  align="left">USD
+                        </td>
+                        <td id="no" width="40%" align="right">51,560.28
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td id="no">03</td>
+                        <td width="30%"  align="left">2124316019285
+                        </td>
+                        <td  width="40%"  align="left">ERQ Account
+                        </td>
+                        <td width="30%"  align="left">USD
+                        </td>
+                        <td id="no" width="40%" align="right">500.00
+                        </td>
+
+                    </tr>
+                </table>
+              <!-- <hr style="width: 100%; border-bottom:2px dashed black;
+    ="> --> 
+                <table width="100%"   style="border-top: none;" >
+                    <tr>
+                        <td align="left" id="ff" style="font-size: 22px; padding: 5px;" >Commission/Charges &nbsp; :</td>
+                        <td align="right" id="ff" style="font-size: 22px;">Eqvt. Amount (USD)</td>
+                    </tr>
+                </table>
+
+                <table width=100% id="custom">
+                    <tr>
+                        <td width="50%" style="padding-left: 15px" align="left">Advance Income Tax on Export
+                        </td>
+                        
+                        <td width="20%" align="right" style="padding-right: 15px" id="no">BDT 30,023.00
+                        </td>
+                        <td width="40%" align="right" id="no">USD 356.88
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50%" style="padding-left: 15px" align="left">Charge for Central Fund of RMG
+                        </td>
+                       
+                        <td width="20%" align="right" style="padding-right: 15px" id="no">BDT 1,802.00
+                        </td>
+                        <td width="40%" align="right" id="no">USD 21.42
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50%" style="padding-left: 15px" align="left">Export Document Collection Comm
+                        </td>
+                        
+                        <td width="30%" align="right" style="padding-right: 15px" id="no">BDT 500.00
+                        </td>
+                        <td width="40%" align="right" id="no">USD 5.94
+                        </td>
+                    </tr>
+                    </table>
+                    <table width="100%">
+                    <tr>
+                        <td id="ff"  align="left" style="font-size: 20px; padding: 5px;" >VAT &nbsp;:
+                        </td>
+                    </tr>
+
+                   <!--<tr>
+                        <td>
+                        </td>
+                        <td>
+                            <hr style="width: 100%; border-bottom:2px black;
+    =">
+                        </td>
+                        <td>
+                            <hr style="width: 100%; border-bottom:2px black;
+    =">
+                        </td>
+                        <td>
+                            <hr style="width: 100%; border-bottom:2px  black;
+    =">
+                        </td>
+                    </tr> --> 
+</table>
+
+<div width="100%" id="custom">
+                    <div >
+                        <div width="50%" style="padding-left: 15px" align="left">Total
+
+                        </div>
+                     
+                        <div width="30%" align="right" style="padding-right: 15px" id="no"> BDT&nbsp; 32,325.00
+                        </div>
+                        <div width="30%"  align="right" id="no">USD &nbsp;384.24 
+                        </div>
+                    </div>
+
+
+                    <div >
+                        <div width="50%" style="padding-left: 15px" align="left">Net Amount Credited
+
+                        </div>
+                        
+                        <div width="30%" align="right" style="padding-right: 15px" id="no">BDT &nbsp;1,592, 659.7339
+                        </div>
+                        <div width="30%" align="right" id="no">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div width="100%" border="1px" style="border-top: black;"></table> 
+                <div id="notices" align="center">
+                    <p id="ff"><div border="1px" style=" border-bottom: 1px solid #3989c6"></div>
+                        THIS VOUCHER HAS BEEN PRODUCED BY ELECTRONIC MEANS AND REQUIRES NO SIGNATURE.</p>
+                   </div> 
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>
